@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":dependencyDashboard"],
+  "automergeType": "branch",
+  "semanticCommits": "enabled",
+  "major": {
+    "dependencyDashboardApproval": true
+  },
+  "packageRules": [
+    {
+      "managers": ["gradle-lite"],
+      "enabled": true
+    },
+    {
+      "managers": ["gradle"],
+      "enabled": false
+    }
+  ]
+}
