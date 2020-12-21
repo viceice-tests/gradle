@@ -6,16 +6,10 @@
   "major": {
     "dependencyDashboardApproval": true
   },
-  "packageRules": [
-    {
-      "packagePatterns": ["*"],
-      "managers": ["gradle-lite"],
-      "enabled": true
-    },
-    {
-      "packagePatterns": ["*"],
-      "managers": ["gradle"],
-      "enabled": false
-    }
-  ]
+  "gradle": {
+    "enabled": false
+  },
+  "gradle-lite": {
+    "enabled": true
+  }
 }
