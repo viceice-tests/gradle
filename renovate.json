@@ -7,9 +7,6 @@
     "dependencyDashboardApproval": true
   },
   "gradle": {
-    "enabled": false
-  },
-  "gradle-lite": {
-    "enabled": true
+    "deepExtract": true
   }
 }
